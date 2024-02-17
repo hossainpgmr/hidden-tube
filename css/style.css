@@ -145,12 +145,24 @@ font-family: "Roboto", sans-serif;
 
 /* modules/ reuseable*/
 
+.why-choose-section .container:first-child,
+.about-section .container:first-child,
+.homepage-contact-section .container:first-child,
+.hero-section .container:first-child,
+.course-section .container:first-child {
+    padding: 6.6rem 0 2.6rem 0;
+}
+
+/* .about-section .container:first-child{
+    padding: 6.6rem 0 2.3rem 0 ;
+} */
+
 
 
 .btn {
     display: inline-block;
     padding: 1.2rem 3.2rem;
-    background-color: #F99071;
+    background-color: #f99171e0;
     color: white;
     border-radius: 0.6rem;
     margin: 2rem 0 2rem 0;
@@ -284,7 +296,7 @@ font-family: "Roboto", sans-serif;
 
 .common-title {
     font-size: 1.9rem;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: capitalize;
     margin: 2.4rem 0 1.2rem 0;
 
@@ -328,7 +340,9 @@ font-family: "Roboto", sans-serif;
 /* end about section */
 
 /* start course section */
-
+.course-section{
+    background-color: #ac845110;
+}
 .course-div {
     padding: 3.2rem;
 }
@@ -443,7 +457,7 @@ font-family: "Roboto", sans-serif;
     border-radius: 50%;
     width: 50rem;
     height: 50rem;
-
+    animation: circle 5s linear infinite alternate-reverse;
 
 }
 
@@ -464,8 +478,81 @@ font-family: "Roboto", sans-serif;
 }
 
 
+@keyframes circle {
+    0% {
+        background-color: #f7a78f50;
+    }
+
+    25% {
+        background-color: #ff8f6d67;
+    }
+
+    50% {
+        background-color: #f87d5791;
+
+    }
+
+    75% {
+        background-color: #f16236ad;
+    }
+
+    100% {
+        background-color: #f99171ea;
+    }
+
+}
+
+
+
 /* end why choose section  */
 
+/* start home section */
+
+.homepage-contact-section {
+    width: 60%;
+    min-height: 30rem;
+    margin: 0% auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 10rem;
+    padding: 0% 5.5rem;
+}
+
+.contact-img img {
+    width: 80%;
+    height: auto;
+    
+  
+        background-color: #f9917107;
+        border-radius: 35rem;
+    
+    
+    
+}
+
+.grid {
+    align-items: center;
+    gap: 6.2rem;
+}
+
+.fa-arrow-right {
+    color: #f99171e0;
+    background-color: white;
+    padding: 0%;
+    font-size: 16px;
+
+}
+.contact-main-heading {
+    /* color: white; */
+    font-size: 3.9rem;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: .2rem;
+    line-height: 1.1;
+    padding-bottom: 2.5rem;
+}
+
+/* 
+/* end home section */
 
 /* start footer section */
 
