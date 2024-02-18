@@ -148,7 +148,7 @@ font-family: "Roboto", sans-serif;
 .why-choose-section .container:first-child,
 .about-section .container:first-child,
 .homepage-contact-section .container:first-child,
-.hero-section .container:first-child,
+/* .hero-section .container:first-child, */
 .course-section .container:first-child {
     padding: 6.6rem 0 2.6rem 0;
 }
@@ -340,9 +340,10 @@ font-family: "Roboto", sans-serif;
 /* end about section */
 
 /* start course section */
-.course-section{
-    background-color: #ac845110;
+.course-section {
+    background-color: #ac855109;
 }
+
 .course-div {
     padding: 3.2rem;
 }
@@ -509,24 +510,26 @@ font-family: "Roboto", sans-serif;
 /* start home section */
 
 .homepage-contact-section {
+    position: relative;
     width: 60%;
     min-height: 30rem;
     margin: 0% auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin-bottom: 10rem;
     padding: 0% 5.5rem;
+
 }
 
 .contact-img img {
     width: 80%;
     height: auto;
-    
-  
-        background-color: #f9917107;
-        border-radius: 35rem;
-    
-    
-    
+
+
+    background-color: #f9917107;
+    border-radius: 35rem;
+
+
+
 }
 
 .grid {
@@ -535,12 +538,16 @@ font-family: "Roboto", sans-serif;
 }
 
 .fa-arrow-right {
-    color: #f99171e0;
-    background-color: white;
+    color: #fff;
     padding: 0%;
     font-size: 16px;
 
 }
+
+.btn:hover .fa-arrow-right {
+    color: #f99171e0;
+}
+
 .contact-main-heading {
     /* color: white; */
     font-size: 3.9rem;
@@ -556,5 +563,54 @@ font-family: "Roboto", sans-serif;
 
 /* start footer section */
 
+.footer-icon-social-link .fa-brands {
+    font-size: 1.8rem;
+    color: #fffefd;
+}
+
+.footer-icon-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.footer-icon-social-link a {
+    background-color: #141614;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-main-heading {
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+
+}
+
+.footer-sub-heading {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400px;
+    color: var(--para-color);
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+
+.footer-section {
+    background-color: #5e4e490c;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: gray;
+}
 
 /*  end footer section */
