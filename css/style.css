@@ -510,14 +510,23 @@ font-family: "Roboto", sans-serif;
 /* start home section */
 
 .homepage-contact-section {
-    position: relative;
+
     width: 60%;
     min-height: 30rem;
     margin: 0% auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    margin-bottom: 10rem;
-    padding: 0% 5.5rem;
+    padding: 0 2.2rem;
+    border-radius: 0.5rem;
+    /* margin-bottom: 5rem; */
+  
+    
 
+}
+#homepage-section{
+position: relative;
+bottom: -15rem;
+z-index: 1;
+background-color: #fff;
 }
 
 .contact-img img {
@@ -535,6 +544,7 @@ font-family: "Roboto", sans-serif;
 .grid {
     align-items: center;
     gap: 6.2rem;
+
 }
 
 .fa-arrow-right {
@@ -558,12 +568,11 @@ font-family: "Roboto", sans-serif;
     padding-bottom: 2.5rem;
 }
 
-/* 
 /* end home section */
 
 /* start footer section */
 
-.footer-icon-social-link .fa-brands {
+ .footer-icon-social-link .fa-brands {
     font-size: 1.8rem;
     color: #fffefd;
 }
@@ -572,13 +581,13 @@ font-family: "Roboto", sans-serif;
     display: inline-flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 18px;
 }
 
 .footer-icon-social-link a {
     background-color: #141614;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -605,12 +614,20 @@ font-family: "Roboto", sans-serif;
 
 
 .footer-section {
-    background-color: #5e4e490c;
+    background-color: #44444415;
+    padding-top: 15rem;
+   
+   
 }
-
+lis
 .copyright {
     margin-top: 20px;
     color: gray;
 }
 
 /*  end footer section */
+
+
+/* start footer style */
+
+/* end footer style */
