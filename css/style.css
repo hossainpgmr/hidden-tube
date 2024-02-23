@@ -152,7 +152,7 @@ main {
     .form-section
   )
   .container:first-child {
-  padding: 6.6rem 0 2.6rem 0;
+  padding: 6.6rem 2.4rem 2.6rem 2.4rem;
 }
 /* .form-section .footer-section{
   padding-top: 0%;
@@ -725,3 +725,50 @@ textarea {
 }
 
 /*  end footer section */
+
+@media (width <= 1400px) {
+  html{
+    font-size: 56.25%;
+  }
+  .hero-img{
+    width: 90%;
+  }
+}
+@media (width <= 1250px) {
+  html{
+    font-size: 54%;
+  }
+  .hero-img{
+    width: 85%;
+  }
+}
+/* @media (width	<= 992px) {
+  html{
+    font-size: 56.25%;
+  }
+  .hero-img{
+    width: 90%;
+  }
+}
+@media (width <= 768px) {
+  html{
+    font-size: 56.25%;
+  }
+  .hero-img{
+    width: 90%;
+  }
+}
+@media (width <= 576px) {
+  html{
+    font-size: 56.25%;
+  }
+  .hero-img{
+    width: 90%;
+  }
+} */
+
+
+
+
+/* media queries section */
+
